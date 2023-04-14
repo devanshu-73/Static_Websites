@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "background-color: #8067739b",
+          "justify-content: space-evenly"
+        ]
+      }
+    ],
+    "sri": "off"
+  }
+}
