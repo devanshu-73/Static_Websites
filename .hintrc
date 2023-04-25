@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "sri": "off",
+    "compat-api/css": "off"
+  }
+}
