@@ -3,15 +3,15 @@
     "development"
   ],
   "hints": {
+    "sri": "off",
     "compat-api/css": [
       "default",
       {
         "ignore": [
-          "background-color: #8067739b",
-          "justify-content: space-evenly"
+          "justify-content: space-evenly",
+          "background-color: #8067739b"
         ]
       }
-    ],
-    "sri": "off"
+    ]
   }
 }
