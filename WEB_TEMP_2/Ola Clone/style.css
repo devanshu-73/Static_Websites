@@ -1,0 +1,57 @@
+/* ------- Myfont ----------------- */
+@font-face {
+  font-family: font;
+  src: url(Gentona/Gentona.ttf);
+}
+@font-face {
+  font-family: font-it;
+  src: url(Gentona/Gentona-italic.ttf);
+}
+
+/* ------- CSS Reset ----------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* section-1 start*/
+
+#sec-1 {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+#sec-1A { 
+    width: 100%;
+  position: absolute;
+  top: 0;
+}
+.nav-bdr {
+  border-bottom: 0.01rem solid black;
+}
+.nav-left,
+.nav-right a {
+  color: black;
+  font-size: 1.9rem;
+  letter-spacing: 0.05rem;
+}
+
+/* .hamburger {
+  width: 4rem;
+  height: 3rem;
+  border: none;
+  background-color: transparent;
+}
+.hamburger span {
+  margin-top: 0.6rem;
+  width: 90%;
+  height: 0.2rem;
+  background-color: white;
+} */
+/* section-1 end*/
