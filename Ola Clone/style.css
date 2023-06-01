@@ -7,7 +7,6 @@
   font-family: font-it;
   src: url(Gentona/Gentona-italic.ttf);
 }
-
 /* ------- CSS Reset ----------------- */
 * {
   margin: 0;
@@ -20,18 +19,6 @@ html {
 }
 
 /* section-1 start*/
-
-#sec-1 {
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
-#sec-1A { 
-    width: 100%;
-  position: absolute;
-  top: 0;
-}
 .nav-bdr {
   border-bottom: 0.01rem solid black;
 }
@@ -41,7 +28,9 @@ html {
   font-size: 1.9rem;
   letter-spacing: 0.05rem;
 }
-
+.nav-bottom {
+  border: 1px solid black;
+}
 /* .hamburger {
   width: 4rem;
   height: 3rem;

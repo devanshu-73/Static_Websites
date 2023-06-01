@@ -1,1 +1,3 @@
-console.log("hello")
+$(".project").hover3d({
+    selector: ".project__card"
+});
