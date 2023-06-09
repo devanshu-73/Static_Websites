@@ -14,11 +14,36 @@
   box-sizing: border-box;
   font-family: font;
 }
+body {
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   font-size: 62.5%;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 480px) {
+  html {
+    font-size: 35%;
+  }
+}
 /* section-1 start*/
+
 .nav-bdr {
   border-bottom: 0.01rem solid black;
 }
@@ -28,9 +53,31 @@ html {
   font-size: 1.9rem;
   letter-spacing: 0.05rem;
 }
-.nav-bottom {
-  border: 1px solid black;
+.r-btn-1 {
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
 }
+.r-btn-1:hover {
+  background-color: transparent !important;
+  color: white !important;
+}
+.r-btn-2 {
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+.r-btn-2:hover {
+  background-color: white !important;
+  color: grey !important;
+}
+
+/* .nav-bottom {
+  border: 1px solid black;
+} */
+
 /* .hamburger {
   width: 4rem;
   height: 3rem;
@@ -44,3 +91,86 @@ html {
   background-color: white;
 } */
 /* section-1 end*/
+/* ------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------- */
+/* section-2 start*/
+
+.scooty1 {
+  background-color: #6484b5;
+}
+.scooty2 {
+  background-color: #f0f0f0;
+}
+.scooty3 {
+  background-color: #ee4c4a;
+}
+.s-btn1 {
+  font-size: 1.8rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  background-color: #1e3b6a !important;
+}
+.s-btn2 {
+  font-size: 1.8rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  background-color: #353538 !important;
+}
+.s-btn3 {
+  font-size: 1.8rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  background-color: #861f2a !important;
+}
+/* section-2 end*/
+/* ------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------- */
+/* section-3 start*/
+
+#sec-3 {
+  /* height: 100vh; */
+  /* background: linear-gradient(45deg, #4f7d9c, #2c3e50); */
+  background-image: repeating-linear-gradient(
+    70deg,
+    #2c3e50,
+    #27353f,
+    #2a2c2e,
+    #2c3e50,
+    #0f2027,
+    #203a43,
+    #2c5364,
+    #222930,
+    #2c3e50
+  );
+  background-size: 600% 600%;
+  background-position: 0% 50%;
+  animation: wave 10s linear infinite;
+}
+@keyframes wave {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.sec-3-top h1 {
+  font-size: 6rem;
+}
+.sec-3-top h4 {
+  font-weight: 100 !important;
+  font-size: 3rem;
+}
+.s3-b-left {
+  border: 1px solid rgba(255, 255, 255, 0.281) !important;
+  border-radius: 2.5rem !important;
+  /* max-height: 35rem; */
+  padding: 3rem !important;
+}
+.s3-b-right {
+  padding: 3rem !important;
+  border: 1px solid rgba(255, 255, 255, 0.281) !important;
+  border-radius: 2.5rem !important;
+  /* max-height: 35rem; */
+}
+/* section-3 end*/

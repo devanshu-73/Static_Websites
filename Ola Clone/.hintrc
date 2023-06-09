@@ -10,6 +10,25 @@
         "link-name": "off",
         "button-name": "off"
       }
-    ]
+    ],
+    "axe/keyboard": [
+      "default",
+      {
+        "nested-interactive": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "filter",
+          "transform-style",
+          "grid-template-columns",
+          "grid-template-rows",
+          "display: grid"
+        ]
+      }
+    ],
+    "no-inline-styles": "off"
   }
 }
