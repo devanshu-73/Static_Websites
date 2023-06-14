@@ -25,10 +25,20 @@
           "transform-style",
           "grid-template-columns",
           "grid-template-rows",
-          "display: grid"
+          "display: grid",
+          "-webkit-transform-style",
+          "user-select",
+          "background-color: #2c4558b7",
+          "object-fit"
         ]
       }
     ],
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ]
   }
 }

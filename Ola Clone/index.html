@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ola Electric Clone By Dev_eloper</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/3d-card-slider.css">
   <link rel="shortcut icon" href="/Ola Clone/img/favicon.png" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +22,7 @@
 <body>
   <div id="main">
     <!-- sec-1-start---------------------------------------- -->
-    <div id="sec-1" class="position-relative overflow-hidden w-100 h-100">
+    <div id="sec-1" class="position-relative overflow-hidden h-100 w-100">
       <img src="/img/home-page.png" alt="home-page" class="img-fluid overflow-hidden" />
       <div class="w-100 h-100 position-absolute top-0">
         <div class="container h-75 mt-5 nav-container d-flex flex-column justify-content-between">
@@ -28,7 +30,7 @@
             class="navbar navbar-expand-lg navbar-dark nav-bdr animate__animated animate__fadeInUpBig animate__slower animate__delay-1s">
             <div class="container-fluid">
               <a class="navbar-brand animate__animated animate__hinge animate__slower animate__delay-4s" href="#">
-                <img src="/img/logo_dark.webp" class="img-fluid" alt="logo" />
+                <img src="/img/logo_dark.webp" class="h-75 img-fluid" alt="logo" />
               </a>
               <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -97,8 +99,12 @@
             </h1>
             <div class="right-text d-flex justify-content-center align-items-center">
               <div class="btn-group btn-group-lg h-50 w-100" role="group" aria-label="Basic example">
-                <button type="button" class="btn m-auto text-black-50 r-btn-1 me-3 btn-light">Book a Test Ride</button>
-                <button type="button" class="btn m-auto r-btn-2 text-white btn-outline-light">Explore S1 Pro</button>
+                <button type="button" class="btn r-btn-1 me-3 fs-4">
+                  Book a Test Ride
+                </button>
+                <button type="button" class="btn r-btn-2 btn-outline-light fs-4">
+                  Explore S1 Pro
+                </button>
               </div>
             </div>
           </div>
@@ -108,117 +114,470 @@
     <!-- sec-1-end---------------------------------------- -->
 
     <!-- sec-2-start---------------------------------------- -->
-    <div id="sec-2" class="w-100 h-100"">
-      <div class=" container pb-5">
-      <div class="row d-flex">
-        <!-- card---1-START -->
-        <div class="card border-0 col-4">
-          <img src="/img/S1Pro_Scooty.webp" class="card-img-top" alt="...">
-          <div class="card-body scooty1">
-            <img src="/img/home_product_s1_pro_new.svg" class="img-fluid" alt="...">
-            <p class="card-text lh-lg pt-3 fs-4">Fast &nbsp; Furious &nbsp; Fun</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <hr class="bg-white w-75">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+    <div id="sec-2" class="w-100 h-100 overflow-hidden">
+      <div class="container pb-5">
+        <div class="row d-flex">
+          <!-- card---1-START -->
+          <div class="card border-0 col-4">
+            <img src="/img/S1Pro_Scooty.webp" class="card-img-top" alt="..." />
+            <div class="card-body scooty1">
+              <img src="/img/home_product_s1_pro_new.svg" class="img-fluid" alt="..." />
+              <p class="card-text lh-lg pt-3 fs-4">
+                Fast &nbsp; Furious &nbsp; Fun
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <hr class="bg-white w-75" />
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <a href="#" class="btn s-btn1 btn-primary border-0">Explore S1 Pro
+              <span><img src="/img/home_product_range_arrow_v1.svg" alt="" /></span></a>
           </div>
-          <a href="#" class="btn s-btn1 btn-primary">Explore S1 Pro</a>
-        </div>
-        <!-- card---1-END -->
-        <!-- card---2_START -->
-        <div class="card border-0 col-4">
-          <img src="/img/S1_Scooty.webp" class="card-img-top" alt="...">
-          <div class="card-body scooty2">
-            <img src="/img/home_product_s1_new.svg" class="img-fluid" alt="...">
-            <p class="card-text lh-lg pt-3 fs-4">Feature packed &nbsp; Future packed</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <hr class="bg-dark w-75">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+          <!-- card---1-END -->
+          <!-- card---2_START -->
+          <div class="card border-0 col-4">
+            <img src="/img/S1_Scooty.webp" class="card-img-top" alt="..." />
+            <div class="card-body scooty2">
+              <img src="/img/home_product_s1_new.svg" class="img-fluid" alt="..." />
+              <p class="card-text lh-lg pt-3 fs-4">
+                Feature packed &nbsp; Future packed
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <hr class="bg-dark w-75" />
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <a href="#" class="btn s-btn2 btn-primary border-0">Explore S1
+              <span><img src="/img/home_product_range_arrow_v1.svg" alt="" /></span></a>
           </div>
-          <a href="#" class="btn s-btn2 btn-primary">Explore S1</a>
-        </div>
-        <!-- card---2-END -->
-        <!-- card---3-START -->
-        <div class="card border-0 col-4">
-          <img src="/img/S1Air_Scooty.webp" class="card-img-top" alt="...">
-          <div class="card-body scooty3">
-            <img src="/img/home_product_s1_air_new.svg" class="img-fluid" alt="...">
-            <p class="card-text lh-lg pt-3 fs-4">S1 you love at a price youll love</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <hr class="bg-white w-75">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+          <!-- card---2-END -->
+          <!-- card---3-START -->
+          <div class="card border-0 col-4">
+            <img src="/img/S1Air_Scooty.webp" class="card-img-top" alt="..." />
+            <div class="card-body scooty3">
+              <img src="/img/home_product_s1_air_new.svg" class="img-fluid" alt="..." />
+              <p class="card-text lh-lg pt-3 fs-4">
+                S1 you love at a price youll love
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <hr class="bg-white w-75" />
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <a href="#" class="btn s-btn3 btn-primary border-0">Explore S1 Air
+              <span><img src="/img/home_product_range_arrow_v1.svg" alt="" /></span></a>
           </div>
-          <a href="#" class="btn s-btn3  btn-primary">Explore S1 Air</a>
+          <!-- card---3-END -->
         </div>
-        <!-- card---3-END -->
       </div>
     </div>
-  </div>
-  <!-- sec-2-end---------------------------------------- -->
+    <!-- sec-2-end---------------------------------------- -->
 
-  <!-- sec-3-start---------------------------------------- -->
-  <div id="sec-3" class="h-100">
-    <div class="container h-100 p-5 d-flex flex-column">
-      <div class="sec-3-top text-white text-center col-12">
-        <h1 class="lh-sm">The future is here <br>it's looking great.</h1>
-        <h4 class="lh-lg"> Ola ownership simplified</h4>
-      </div>
-      <div class="sec-3-bottom mt-5 text-white row p-3">
-        <div class="col-5 ms-auto me-3 card bg-transparent s3-b-left">
-          <div class="card-body row">
-            <div class="row">
-              <img class="img-fluid mb-5 w-100" src="/img/ola_hypercharger_txt_image_web.svg" alt="">
-            </div>
-            <div class="row">
-              <div class="col-12">
-                <p class="fs-4 text-start fw-lighter">Tick places off your bucket list. Our 100+ Hyperchargers are ready for you.</p>
+    <!-- sec-3-start---------------------------------------- -->
+    <div id="sec-3" class="h-100 w-100 overflow-hidden">
+      <div class="container h-100 p-5 d-flex flex-column">
+        <div class="sec-3-top text-white text-center col-12">
+          <h1 class="lh-sm">The future is here <br />it's looking great.</h1>
+          <h4 class="lh-lg">Ola ownership simplified</h4>
+        </div>
+        <div class="sec-3-bottom mt-5 text-white row p-3">
+          <div class="col-5 card s3-b-left ms-auto me-3 bg-transparent">
+            <div class="card-body">
+              <div class="row">
+                <div class="row mb-5">
+                  <img class="img-fluid" src="/img/ola_hypercharger_txt_image_web.svg" alt="" />
+                </div>
+                <div class="row">
+                  <p class="fs-4 text-start fw-lighter">
+                    Tick places off your bucket list. Our 100+ Hyperchargers
+                    are ready for you.
+                  </p>
+                  <!-- <div class="col-3"><img src="/img/support_Icon.webp" class="img-fluid" alt="..."></div> -->
+                </div>
               </div>
-              <!-- <div class="col-3"><img src="/img/support_Icon.webp" class="img-fluid" alt="..."></div> -->
-            </div>
-            <div class="row mt-5">
-              <button class="btn text-white text-start fs-1">Learn More <span><img src="/img/arrow-right_v1.svg"
-                    alt=""></span></button>
+              <div class="row mt-5 d-flex justify-content-center align-items-center">
+                <button class="btn text-white text-start fs-2">
+                  Learn More
+                  <span><img src="/img/home_product_range_arrow_v1.svg" alt="" /></span>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-5 card s3-b-right ms-3 me-auto bg-transparent">
-          <div class="card-body">
-            <div class="row ">
-              <div class="col-9 s3-card-top">
-                <img src="" class="img-fluid mb-5" alt="">
-                <h3>Door-step service, pick and drop service. Always at your service with Ola Care+.</h3>
+          <div class="col-5 card s3-b-right ms-3 me-auto bg-transparent">
+            <div class="card-body">
+              <div class="row">
+                <div class="row mb-5">
+                  <div class="s3-b-right-care">
+                    <img class="img-fluid" src="/img/ola_care_txt_image_web.svg" alt="" />
+                  </div>
+                </div>
+                <div class="row">
+                  <p class="fs-4 text-start fw-lighter">
+                    Door-step service, pick and drop service. Always at your
+                    service with Ola Care+
+                  </p>
+                  <!-- <div class="col-3"><img src="/img/support_Icon.webp" class="img-fluid" alt="..."></div> -->
+                </div>
               </div>
-              <div class="col-3">
-                <img src="/img/new_umberella.webp" class="img-fluid mt-5" alt="...">
+              <div class="row mt-5 d-flex justify-content-center align-items-center">
+                <button class="btn text-white text-start fs-2">
+                  Learn More
+                  <span><img src="/img/home_product_range_arrow_v1.svg" alt="" /></span>
+                </button>
               </div>
-            </div>
-            <div class="row mt-5">
-              <button class="btn text-white text-start">Learn More</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- sec-3-end---------------------------------------- -->
+
+    <!-- sec-4-start---------------------------------------- -->
+    <div id="sec-4" class="h-100 w-100 position-relative">
+      <img src="/img/olaec_center_web_image.webp" class="img-fluid sec-4-img position-absolute top-0 end-0" alt="" />
+      <div class="container d-flex flex-column h-100">
+        <div class="row">
+          <div class="col-6 sec-4-top">
+            <div class="sec-4-top-h1">Come on over Meet us in Gujarat</div>
+            <h3 class="fs-2">
+              Ola Experience Centres. Because nothing beats a one on one with
+              the S1.
+            </h3>
+            <div>
+              <button class="btn text-success fs-3 text-start p-0">
+                More about Ola Experience Centres
+                <span><img src="/img/green_arrow_v1.svg" class="img-fluid" alt="" /></span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="sec-4-bottom mb-4">
+          <div class="slider">
+            <input type="radio" name="testimonial" id="t-1" />
+            <input type="radio" name="testimonial" id="t-2" />
+            <input type="radio" name="testimonial" id="t-3" checked />
+            <input type="radio" name="testimonial" id="t-4" />
+            <input type="radio" name="testimonial" id="t-5" />
+            <div class="testimonials">
+              <label class="item h-100 " for="t-1">
+                <div class="p-3 sec-4-card">
+                  <h1 class="text-start card-title">Ola Experience Centre Ramamurthy Nagar</h1>
+                  <p class="text-white card-text fs-3 text-start">
+                    Ramamurthi Nagar Main Road,Ramamurthy Nagar, Bengaluru, Karnataka 560016
+                  </p>
+                  <a href="#sec-4" class="w-100 btn">Schedule a Visit
+                    <span class=""><img src="/img/home_product_range_arrow_v1.svg" class="img-fluid s4-arrow-img"
+                        alt="" /></span>
+                  </a>
+                </div>
+              </label>
+              <label class="item h-100 " for="t-2">
+                <div class="p-3 sec-4-card">
+                  <h1 class="text-start card-title">Ola Experience Centre Ramamurthy Nagar</h1>
+                  <p class="text-white card-text fs-3 text-start">
+                    Ramamurthi Nagar Main Road,Ramamurthy Nagar, Bengaluru, Karnataka 560016
+                  </p>
+                  <a href="#sec-4" class="w-100 btn">Schedule a Visit
+                    <span class=""><img src="/img/home_product_range_arrow_v1.svg" class="img-fluid s4-arrow-img"
+                        alt="" /></span>
+                  </a>
+                </div>
+              </label>
+              <label class="item h-100 " for="t-3">
+                <div class="p-3 sec-4-card">
+                  <h1 class="text-start card-title">Ola Experience Centre Ramamurthy Nagar</h1>
+                  <p class="text-white card-text fs-3 text-start">
+                    Ramamurthi Nagar Main Road,Ramamurthy Nagar, Bengaluru, Karnataka 560016
+                  </p>
+                  <a href="#sec-4" class="w-100 btn">Schedule a Visit
+                    <span class=""><img src="/img/home_product_range_arrow_v1.svg" class="img-fluid s4-arrow-img"
+                        alt="" /></span>
+                  </a>
+                </div>
+              </label>
+              <label class="item h-100 " for="t-4">
+                <div class="p-3 sec-4-card">
+                  <h1 class="text-start card-title">Ola Experience Centre Ramamurthy Nagar</h1>
+                  <p class="text-white card-text fs-3 text-start">
+                    Ramamurthi Nagar Main Road,Ramamurthy Nagar, Bengaluru, Karnataka 560016
+                  </p>
+                  <a href="#sec-4" class="w-100 btn">Schedule a Visit
+                    <span class=""><img src="/img/home_product_range_arrow_v1.svg" class="img-fluid s4-arrow-img"
+                        alt="" /></span>
+                  </a>
+                </div>
+              </label>
+              <label class="item h-100 " for="t-5">
+                <div class="p-3 sec-4-card">
+                  <h1 class="text-start card-title">Ola Experience Centre Ramamurthy Nagar</h1>
+                  <p class="text-white card-text fs-3 text-start">
+                    Ramamurthi Nagar Main Road,Ramamurthy Nagar, Bengaluru, Karnataka 560016
+                  </p>
+                  <a href="#sec-4" class="w-100 btn">Schedule a Visit
+                    <span class=""><img src="/img/home_product_range_arrow_v1.svg" class="img-fluid s4-arrow-img"
+                        alt="" /></span>
+                  </a>
+                </div>
+              </label>
+            </div>
+            <!-- <div class="dots">
+              <label for="t-1">1</label>
+              <label for="t-2">2</label>
+              <label for="t-3">3</label>
+              <label for="t-4">4</label>
+              <label for="t-5">5</label>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sec-4-end---------------------------------------- -->
+
+    <!-- sec-5-start---------------------------------------- -->
+    <div id="sec-5" class="h-100">
+      <div class="container p-5">
+        <div class="d-flex row text-white">
+          <div class="col-5 ">
+            <div class="sec-5-top-1">Rising petrol cost? <br>No sweat</div>
+            <div class="d-flex align-items-center">
+              <div><img src="/img/home_rising_star.webp" alt=""></div>
+              <div>&nbsp;</div>
+              <div>&nbsp;</div>
+              <div>&nbsp;</div>
+              <div>
+                <div class="fs-2">Save ₹2,199/mo on fuel cost</div>
+                <div class="fs-4">Spend only 17 paise per Km on Ola S1 <br>Vs ₹2.5 per Km on an ICE</div>
+              </div>
+            </div>
+            <hr class="bg-success w-50 ms-auto me-auto ">
+            <div class="d-flex align-items-center">
+              <div><img src="/img/home_rising_star.webp" alt=""></div>
+              <div>&nbsp;</div>
+              <div>&nbsp;</div>
+              <div>&nbsp;</div>
+              <div>
+                <div class="fs-2">Save ₹2,199/mo on fuel cost</div>
+                <div class="fs-4">Spend only 17 paise per Km on Ola S1 <br>Vs ₹2.5 per Km on an ICE</div>
+              </div>
+            </div>
+            <div class="btn mt-5 d-flex justify-content-center w-50 align-items-center "><span
+                class="text-success fs-2">Calculate Savings &nbsp;</span>&nbsp; <img src="/img/green_arrow_v1.svg"
+                alt=""></div>
+          </div>
+          <div class="col-7"><img src="/img/Web_S1Pro_28042023.webp" class="img-fluid" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <!-- sec-5-end---------------------------------------- -->
+    <!-- sec-6-start---------------------------------------- -->
+
+    <div id="sec-6">
+      <div class="container">
+        <div class="s6-top-h1 col-8 py-5 pe-5"> In our future factory, ordinary doesn't make the cut</div>
+        <div class="nav-gallery w-100 d-flex justify-content-around mb-3">
+          <a href="#sec-6" class="fs-1" onclick="toggleImages(0)">Design</a>
+          <a href="#sec-6" class="fs-1" onclick="toggleImages(1)">Digital Tech</a>
+          <a href="#sec-6" class="fs-1" onclick="toggleImages(2)">Performance</a>
+          <a href="#sec-6" class="fs-1" onclick="toggleImages(3)">Safety</a>
+        </div>
+
+        <div class="s6-bottom">
+          <!-- Images for each item -->
+          <div class="image-container ">
+            <div class="row">
+              <div class="col-6"><img src="/img/design_web_image_c1r1_310523.webp" class="img-fluid" alt=""></div>
+              <div class=" col-6">
+                <img src="/img/design_web_image_c2r1_010623.webp" class="img-fluid row" alt="">
+                <img src="/img/design_web_image_c2r2_010623.webp" class="img-fluid row mt-4" alt="">
+              </div>
+            </div>
+            <div class="row pb-4">
+              <div class="col-4 ">
+                <div class="s6-h1">Iconic headlamp</div>
+                <div class="fs-5 text-black-50 text-black-50">Like the moon. But better.</div>
+              </div>
+              <div class="col-4 ">
+                <div class="s6-h1">12 stunning colours</div>
+                <div class="fs-5 text-black-50 text-black-50">Many colours. All green.</div>
+              </div>
+              <div class="col-4 ">
+                <div class="s6-h1">Seamless Design</div>
+                <div class="fs-5 text-black-50 text-black-50">No nuts. No bolts. No kidding.</div>
+              </div>
+              <div>
+                <a href="#sec-6" class="text-black-50 text-decoration-none fs-2"> Learn more about Design <span><img
+                      src="/img/cta-green-arrow_v1.svg" alt=""></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="row">
+              <div class="col-6"><img src="/img/digitaltech_web_image_c1r1_310523.webp" class="img-fluid" alt=""></div>
+              <div class=" col-6">
+                <img src="/img/digitaltech_web_image_c2r1_310523.webp" class="img-fluid row" alt="">
+                <img src="/img/digitaltech_web_image_c2r2_310523.webp" class="img-fluid row mt-4" alt="">
+              </div>
+            </div>
+            <div class="row pb-4">
+              <div class="col-4 ">
+                <div class="s6-h1">Digital Key</div>
+                <div class="fs-5 text-black-50">LTap. Lock. Tap. Unlock.</div>
+              </div>
+              <div class="col-4 ">
+                <div class="s6-h1">Proximity Unlock</div>
+                <div class="fs-5 text-black-50">Step closer to unlock. Like magic.</div>
+              </div>
+              <div class="col-4 ">
+                <div class="s6-h1">Built-in Navigation</div>
+                <div class="fs-5 text-black-50">Take the road less travelled.</div>
+              </div>
+              <div>
+                <a href="#sec-6" class="text-black-50 text-decoration-none fs-2"> Learn more about Digital Tech
+                  <span><img src="/img/cta-green-arrow_v1.svg" alt=""></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="row">
+              <div class="col-6"><img src="/img/performance_web_image_c1r1_310523.webp" class="img-fluid" alt=""></div>
+              <div class=" col-6">
+                <img src="/img/performance_web_image_c2r1_310523.webp" class="img-fluid row" alt="">
+                <img src="/img/home_tenet_performance_mods.webp" class="img-fluid row mt-4" alt="">
+              </div>
+            </div>
+            <div class="row pb-4">
+              <div class="col-4 ">
+                <div class="s6-h1">181km range</div>
+                <div class="fs-5 text-black-50">Go further. And then some.</div>
+              </div>
+              <div class="col-4 ">
+                <div class="s6-h1">Peak power of 8.5KW</div>
+                <div class="fs-5 text-black-50">We don’t call it a beast for nothing.</div>
+              </div>
+              <div class="col-4 ">
+                <div class="s6-h1">Modes</div>
+                <div class="fs-5 text-black-50">You choose the speed. We have a Mode.</div>
+              </div>
+              <div>
+                <a href="#sec-6" class="text-black-50 text-decoration-none fs-2"> Learn more about Performance
+                  <span><img src="/img/cta-green-arrow_v1.svg" alt=""></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="image-container">
+            <div class="row">
+              <div class="col-6"><img src="/img/safety_web_image_c1r1_310523.webp" class="img-fluid" alt=""></div>
+              <div class=" col-6">
+                <img src="/img/safety_web_image_c2r1_310523.webp" class="img-fluid row" alt="">
+                <img src="/img/safety_web_image_c2r2_310523.webp" class="img-fluid row mt-4" alt="">
+              </div>
+            </div>
+            <div class="row pb-4">
+              <div class="col-4 ">
+                <div class="s6-h1">Tested for 4Mn km</div>
+                <div class="fs-5 text-black-50">To the moon and back. 5 times over.</div>
+              </div>
+              <div class="col-4 ">
+                <div class="s6-h1">A battery that lasts</div>
+                <div class="fs-5 text-black-50">Bank on your battery. Without a second thought</div>
+              </div>
+              <div class="col-4 ">
+                <div class="s6-h1">IP67 and 55 certification</div>
+                <div class="fs-5 text-black-50">No nuts. No bolts. No kidding.</div>
+              </div>
+              <div>
+                <a href="#sec-6" class="text-black-50 text-decoration-none fs-2"> Learn more about Safety <span><img
+                      src="/img/cta-green-arrow_v1.svg" alt=""></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sec-6-end---------------------------------------- -->
+
+
+    <!-- sec-7-start---------------------------------------- -->
+    <div id="sec-7">
+      <div class="container p-5">
+        <div class="s7-top">
+          <h1>Goodies for you and your S1</h1>
+          <h4>Goodies for you and your S1</h4>
+        </div>
+        <div class="s7-bottom row">
+          <div class="col-3 d-flex flex-column">
+            <div> <img src="/img/good_for_you_1.webp" class="img-fluid s7-img" alt=""></div>
+            <div>
+              <h1>Centre Stand</h1>
+              <h4>₹999.00</h4>
+            </div>
+          </div>
+          <div class="col-3 d-flex flex-column">
+            <div><img src="/img/good_for_you_2.webp" class="img-fluid s7-img" alt=""></div>
+            <div>
+              <h1>Buddy Step</h1>
+              <h4>₹1999.00</h4>
+            </div>
+          </div>
+          <div class="col-3 d-flex flex-column">
+            <div><img src="/img/good_for_you_3.webp" class="img-fluid s7-img" alt=""></div>
+            <div>
+              <h1>Portable Charger</h1>
+              <h4>₹15000.00</h4>
+            </div>
+          </div>
+          <div class="col-3 d-flex flex-column">
+            <div><img src="/img/Good_scooter_gya_tel_lene.webp" class="img-fluid s7-img-4" alt=""></div>
+            <div>
+              <h1>T-shirt</h1>
+              <h4>₹999.00</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sec-7-end---------------------------------------- -->
   </div>
-  <!-- sec-3-end---------------------------------------- -->
-  </div>
+  <script src="/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>

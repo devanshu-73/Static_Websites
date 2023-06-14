@@ -16,6 +16,7 @@
 }
 body {
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -27,23 +28,22 @@ html {
 
 @media (min-width: 769px) and (max-width: 1024px) {
   html {
-    font-size: 55%;
+    font-size: 51%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
   html {
-    font-size: 45%;
+    font-size: 40%;
   }
 }
 
 @media (min-width: 300px) and (max-width: 480px) {
   html {
-    font-size: 35%;
+    font-size: 30%;
   }
 }
 /* section-1 start*/
-
 .nav-bdr {
   border-bottom: 0.01rem solid black;
 }
@@ -54,30 +54,25 @@ html {
   letter-spacing: 0.05rem;
 }
 .r-btn-1 {
-  padding-right: 5rem !important;
-  padding-left: 5rem !important;
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  color: gray !important;
+  background-color: white !important;
+  padding: 2rem 5rem !important ;
+  transition: all 0.4s ease-in-out !important;
 }
 .r-btn-1:hover {
   background-color: transparent !important;
   color: white !important;
+  border: 1px solid white;
 }
 .r-btn-2 {
-  padding-right: 5rem !important;
-  padding-left: 5rem !important;
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  color: white !important;
+  padding: 2rem 5rem !important ;
+  transition: all 0.4s ease-in-out !important;
 }
 .r-btn-2:hover {
   background-color: white !important;
   color: grey !important;
 }
-
-/* .nav-bottom {
-  border: 1px solid black;
-} */
-
 /* .hamburger {
   width: 4rem;
   height: 3rem;
@@ -127,7 +122,8 @@ html {
 /* ------------------------------------------------------------------------------- */
 /* section-3 start*/
 
-#sec-3 {
+#sec-3,
+.sec-4-card {
   /* height: 100vh; */
   /* background: linear-gradient(45deg, #4f7d9c, #2c3e50); */
   background-image: repeating-linear-gradient(
@@ -173,4 +169,106 @@ html {
   border-radius: 2.5rem !important;
   /* max-height: 35rem; */
 }
+.s3-b-right-care {
+  max-height: 50%;
+}
 /* section-3 end*/
+
+/* section-4 start*/
+#sec-4 {
+  max-height: 100%;
+}
+.sec-4-img {
+  max-width: 37% !important;
+}
+
+.sec-4-top {
+  /* border: 1px solid black; */
+  margin: 13rem 0rem 5rem 0rem !important;
+}
+.sec-4-top-h1 {
+  font-size: 5rem !important;
+}
+.s4-arrow-img {
+  /* background-color: black !important; */
+  max-height: 1rem !important;
+}
+.sec-4-card h1 {
+  color: #54708a !important;
+}
+.sec-4-card p {
+  color: #aeb7be !important;
+}
+.sec-4-card .btn {
+  background-color: #2c4558b7 !important;
+  color: rgb(240, 219, 219);
+  font-size: 2rem !important;
+}
+.sec-4-card .btn:hover {
+  background-color: #b2b2ca !important;
+}
+/* section-4 end*/
+
+/* section-5 start*/
+#sec-5 {
+  background-color: #0b3636;
+}
+.sec-5-top-1 {
+  font-size: 4rem !important;
+}
+
+/* section-5 end*/
+
+/* section-6 start*/
+
+/* CSS for nav-gallery */
+.nav-gallery {
+  overflow: hidden;
+}
+
+.nav-gallery a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-gallery a:hover {
+  color: black;
+}
+
+/* CSS for images */
+.image-container {
+  display: none;
+}
+
+.image-container.active {
+  display: block;
+}
+
+.nav-gallery img {
+  object-fit: cover;
+  margin: 5px;
+}
+
+.s6-top-h1{
+  font-size: 4rem !important;
+}
+.s6-h1{
+  font-size: 3rem !important;
+}
+
+/* section-6 end*/
+
+
+/* section-7 start*/
+
+.s7-img{
+  max-height: 40rem !important;
+}
+.s7-img-4{
+  max-height: 32.7rem !important;
+}
+/* section-7 end*/
