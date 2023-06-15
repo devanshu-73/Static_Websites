@@ -21,7 +21,6 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
-
 html {
   font-size: 62.5%;
 }
@@ -73,18 +72,6 @@ html {
   background-color: white !important;
   color: grey !important;
 }
-/* .hamburger {
-  width: 4rem;
-  height: 3rem;
-  border: none;
-  background-color: transparent;
-}
-.hamburger span {
-  margin-top: 0.6rem;
-  width: 90%;
-  height: 0.2rem;
-  background-color: white;
-} */
 /* section-1 end*/
 /* ------------------------------------------------------------------------------- */
 /* ------------------------------------------------------------------------------- */
@@ -124,8 +111,6 @@ html {
 
 #sec-3,
 .sec-4-card {
-  /* height: 100vh; */
-  /* background: linear-gradient(45deg, #4f7d9c, #2c3e50); */
   background-image: repeating-linear-gradient(
     70deg,
     #2c3e50,
@@ -243,32 +228,88 @@ html {
 .image-container {
   display: none;
 }
-
 .image-container.active {
   display: block;
 }
-
 .nav-gallery img {
   object-fit: cover;
   margin: 5px;
 }
-
-.s6-top-h1{
+.s6-top-h1 {
   font-size: 4rem !important;
 }
-.s6-h1{
+.s6-h1 {
   font-size: 3rem !important;
 }
-
 /* section-6 end*/
 
-
 /* section-7 start*/
+.s7-h1 {
+  font-size: 2rem !important;
+}
+.s7-top-h1 {
+  font-size: 4rem !important;
+}
 
-.s7-img{
-  max-height: 40rem !important;
-}
-.s7-img-4{
-  max-height: 32.7rem !important;
-}
 /* section-7 end*/
+
+/* section-8 start*/
+
+.s8-sub {
+  position: absolute !important;
+  top: 0 !important;
+  padding: 3% 0 9% 0 !important;
+}
+.s8-top,
+.s8-bottom {
+  font-size: 4rem !important;
+  line-height: 3rem !important;
+}
+
+/* section-8 end*/
+/* section-9 start*/
+#sec-9,
+#sec-12,
+.s1-offcanvas {
+  background-image: linear-gradient(
+    176.37deg,
+    #0c1024 5.57%,
+    #0c1024 16.82%,
+    #08131f 51.24%,
+    #0c1024 99.86%
+  );
+}
+.s9-h1 {
+  font-size: 6rem !important;
+}
+.s9-h4 {
+  font-size: 2rem !important;
+}
+/* section-9 end*/
+/* section-10 start*/
+.s10-text-color {
+  color: #18334d !important;
+}
+.s10-h1 {
+  font-size: 4rem !important;
+  line-height: 4rem !important;
+}
+.s10-h5 {
+  font-size: 1.9rem !important;
+  line-height: 4rem !important;
+}
+.s10-img {
+  border-radius: 10% !important;
+}
+/* section-10 end*/
+/* section-11 start*/
+.s11-h1 {
+  font-size: 4rem !important;
+}
+.s11-h4 {
+  font-size: 2rem !important;
+}
+.s11-btn {
+  max-width: 50rem !important;
+}
+/* section-11 end*/

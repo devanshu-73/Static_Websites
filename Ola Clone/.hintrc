@@ -39,6 +39,20 @@
       {
         "image-alt": "off"
       }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-command-name": "off"
+      }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "link[referrerpolicy]"
+        ]
+      }
     ]
   }
 }
