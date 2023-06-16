@@ -55,22 +55,21 @@ html {
 .r-btn-1 {
   color: gray !important;
   background-color: white !important;
-  padding: 2rem 5rem !important ;
+  padding: .6rem 3rem !important ;
   transition: all 0.4s ease-in-out !important;
 }
 .r-btn-1:hover {
-  background-color: transparent !important;
-  color: white !important;
-  border: 1px solid white;
+  color: black  !important;
+
 }
 .r-btn-2 {
   color: white !important;
-  padding: 2rem 5rem !important ;
+  padding: .6rem 3rem !important ;
+  border: 1px solid white !important;
   transition: all 0.4s ease-in-out !important;
 }
 .r-btn-2:hover {
-  background-color: white !important;
-  color: grey !important;
+  color: rgba(255, 255, 255, 0.527) !important;
 }
 /* section-1 end*/
 /* ------------------------------------------------------------------------------- */
