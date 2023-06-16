@@ -313,3 +313,12 @@ html {
   max-width: 50rem !important;
 }
 /* section-11 end*/
+#sec-14 {
+  background-image: linear-gradient(
+    176.37deg,
+    #0c1024 5.57%,
+    #0c1024 16.82%,
+    #08131f 51.24%,
+    #0c1024 99.86%
+  );
+}
