@@ -29,7 +29,8 @@
           "-webkit-transform-style",
           "user-select",
           "background-color: #2c4558b7",
-          "object-fit"
+          "object-fit",
+          "height: max-content"
         ]
       }
     ],
